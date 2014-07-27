@@ -1,4 +1,66 @@
-php_component_memory_limit_manager
-==================================
+# Memory Limit Manager Component for PHP
 
-php component memory limit manager validates if maximum memory usage is reached
+This component helps you to validate if your script reaches the allowed maximum memory limit.
+
+Furthermore, you can set your own memory limit (as long as it is below the limit in you php.ini).
+
+The build status of the current master branch is tracked by Travis CI:
+
+It is also available at [openhub.net](http://www.openhub.net/p/718010).
+
+[![Build Status](https://travis-ci.org/bazzline/php_component_memory_limit_manager.png?branch=master)](http://travis-ci.org/bazzline/php_component_memory_limit_manager)
+
+# Benefits
+
+* provides easy setting of memory limit
+* gives you the advantage to add a buffer before reaching the limit to easy up reacting when limit is reached
+* helps you to set the limit in bytes, kilo bytes, mega bytes or giga bytes (same for the buffer)
+* comes with [DependentInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerAwareInterface.php)
+
+# Examples
+
+* [with reaching memory limit](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/example/Example/withReachingLimit.php)
+* [without reaching memory limit](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/example/Example/withoutReachingLimit.php)
+
+# Install
+
+## Manuel
+
+    mkdir -p vendor/net_bazzline/php_component_memory_limit_manager
+    cd vendor/net_bazzline/php_component_memory_limit_manager
+    git clone https://github.com/bazzline/php_component_memory_limit_manager
+
+## With [Packagist](https://packagist.org/packages/net_bazzline/php_component_memory_limit_manager)
+
+    composer require net_bazzline/php_component_memory_limit_manager:dev-master
+
+# Usage
+
+```php
+$manager = new Net\Bazzline\Component\MemoryLimitManager\MemoryLimitManager();
+$manager->setBufferInMegaBytes(4);
+$manager->setLimitInMegaBytes(64);
+
+while (!empty($dataSet)) {
+    if ($manager->isLimitReached()) {
+        //exit while loop, shutdown process
+    } else {
+        $data = array_shift($dataSet);
+        //work on data set
+    }
+}
+```
+
+# API
+
+Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/document/index.html) section.
+
+# History
+
+* [1.0.1](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.1) - not released yet
+* [1.0.0](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.0) - released at 27.07.2014
+    * initial commit with examples, unit tests and api documentation
+
+# Future Improvements
+
+* if you have one, create a feature request, fork it (and push it back :-))
