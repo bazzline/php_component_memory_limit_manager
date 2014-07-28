@@ -1,7 +1,7 @@
 <?php
 /**
- * @author: sleibelt
- * @since: 7/27/14
+ * @author: stev leibelt <artodeto@bazzline.net>
+ * @since: 2014-07-27
  */
 
 namespace Net\Bazzline\Component\MemoryLimitManager;
