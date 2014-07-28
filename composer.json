@@ -25,7 +25,6 @@
     },
     "autoload": {
         "psr-0": {
-            "Example\\Net\\Bazzline\\Component\\MemoryLimitManager": "example/",
             "Net\\Bazzline\\Component\\MemoryLimitManager": "source/",
             "Test\\Net\\Bazzline\\Component\\MemoryLimitManager": "test/"
         }
