@@ -1,7 +1,6 @@
 filter:
   paths:
     - source/*
-    - test/*
 
 checks:
   php:
