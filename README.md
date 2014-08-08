@@ -5,6 +5,10 @@ This component helps you to validate if your script reaches the allowed maximum 
 Furthermore, you can set your own memory limit (as long as it is below the limit in you php.ini).
 
 The build status of the current master branch is tracked by Travis CI:
+[![build status](https://travis-ci.org/bazzline/php_component_memory_limit_manager.png?branch=master)](http://travis-ci.org/bazzline/php_component_memory_limit_manager)
+
+The scrutinizer status are:
+[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
 
 It is also available at [openhub.net](http://www.openhub.net/p/718010).
 

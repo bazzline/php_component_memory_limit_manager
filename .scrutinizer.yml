@@ -1,0 +1,4 @@
+filter:
+    paths: [source/*, test/*]
+tools:
+    external_code_coverage: false
