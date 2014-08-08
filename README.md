@@ -13,6 +13,9 @@ The scrutinizer status are:
 The versioneye status is:
 [![dependencies](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123)
 
+Downloads:
+[![Downloads this Month](https://img.shields.io/packagist/dm/net_bazzline/php_component_memory_limit_manager.svg)](https://packagist.org/packages/net_bazzline/php_component_memory_limit_manager)
+
 It is also available at [openhub.net](http://www.openhub.net/p/718010).
 
 # Benefits
