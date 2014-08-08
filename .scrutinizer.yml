@@ -1,4 +1,7 @@
 filter:
-    paths: [source/*, test/*]
+    exclude_paths:
+        - test/*
+        - example/*
+        - document/*
 tools:
     external_code_coverage: false
