@@ -212,7 +212,8 @@ class MemoryLimitManager
 
             if (isset($return[0])) {
                 //non-swapped physical memory in kilo bytes
-                $currentUsageInBytes += ($return[0] * 1024);
+                $usageInBytes = (int) $return[0];
+                $currentUsageInBytes += ($usageInBytes * 1024);
             }
         }
 
