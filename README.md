@@ -12,8 +12,6 @@ The scrutinizer status are:
 
 It is also available at [openhub.net](http://www.openhub.net/p/718010).
 
-[![Build Status](https://travis-ci.org/bazzline/php_component_memory_limit_manager.png?branch=master)](http://travis-ci.org/bazzline/php_component_memory_limit_manager)
-
 # Benefits
 
 * provides easy setting of memory limit
