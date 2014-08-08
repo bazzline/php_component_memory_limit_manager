@@ -10,6 +10,9 @@ The build status of the current master branch is tracked by Travis CI:
 The scrutinizer status are:
 [![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
 
+The versioneye status is:
+[![dependencies](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123/badge.svg?style=flat)(https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123)
+
 It is also available at [openhub.net](http://www.openhub.net/p/718010).
 
 # Benefits
