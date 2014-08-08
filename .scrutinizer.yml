@@ -1,7 +1,9 @@
 filter:
-    exclude_paths:
-        - test/*
-        - example/*
-        - document/*
-tools:
-    external_code_coverage: false
+  paths:
+    - source/*
+    - test/*
+
+checks:
+  php:
+    code_rating: true
+    duplication: true
