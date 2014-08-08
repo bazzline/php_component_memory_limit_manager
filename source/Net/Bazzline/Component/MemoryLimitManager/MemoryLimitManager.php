@@ -56,7 +56,7 @@ class MemoryLimitManager
     }
 
     /**
-     * @param $bytes
+     * @param int $bytes
      */
     public function setBufferInBytes($bytes)
     {
