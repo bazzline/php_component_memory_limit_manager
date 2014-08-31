@@ -65,10 +65,12 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 
 # History
 
-* [1.0.2](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.2) - not released yet
+* [1.0.3](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.3) - not released yet
+* [1.0.2](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.2) - released at 31.08.2014
     * added versioneye
     * added scrutinizer
     * fixed small bugs
+    * updated dependencies
 * [1.0.1](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.1) - released at 27.07.2014
     * added missing [DependentInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerAwareInterface.php)
 * [1.0.0](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.0) - released at 27.07.2014
