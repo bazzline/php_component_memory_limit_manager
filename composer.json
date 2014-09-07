@@ -18,9 +18,9 @@
     },
     "require-dev": {
         "apigen/apigen": "2.8.1",
-        "phpunit/phpunit": "4.2.4",
         "mockery/mockery": "dev-master",
-        "phpmd/phpmd": "2.0.0"
+        "phpmd/phpmd": "2.0.0",
+        "phpunit/phpunit": "4.2.5"
     },
     "autoload": {
         "psr-0": {
