@@ -17,7 +17,7 @@
         "php": ">=5.3.3"
     },
     "require-dev": {
-        "apigen/apigen": "2.8.1",
+        "apigen/apigen": "2.8.2",
         "mockery/mockery": "dev-master",
         "phpmd/phpmd": "2.0.0",
         "phpunit/phpunit": "4.2.5"
