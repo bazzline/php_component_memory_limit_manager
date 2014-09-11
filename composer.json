@@ -19,7 +19,7 @@
     "require-dev": {
         "apigen/apigen": "2.8.2",
         "mockery/mockery": "dev-master",
-        "phpmd/phpmd": "2.0.0",
+        "phpmd/phpmd": "2.1.1",
         "phpunit/phpunit": "4.2.5"
     },
     "autoload": {
