@@ -6,7 +6,7 @@ Furthermore, you can set your own memory limit (as long as it is below the limit
 
 The build status of the current master branch is tracked by Travis CI:
 [![build status](https://travis-ci.org/bazzline/php_component_memory_limit_manager.png?branch=master)](http://travis-ci.org/bazzline/php_component_memory_limit_manager)
-[![Latest stable](https://img.shields.io/packagist/v/apigen/apigen.svg)](https://packagist.org/packages/net_bazzline/php_component_memory_limit_manager)
+[![Latest stable](https://img.shields.io/packagist/v/net_bazzline/php_component_memory_limit_manager.svg)](https://packagist.org/packages/net_bazzline/php_component_memory_limit_manager)
 
 The scrutinizer status are:
 [![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
