@@ -62,7 +62,7 @@ while (!empty($dataSet)) {
 
 # API
 
-Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/document/index.html) section.
+Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/document/index.html) section or [online][http://code.bazzline.net/].
 
 # History
 
