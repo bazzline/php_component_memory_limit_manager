@@ -66,6 +66,7 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 
 # History
 
+* upcomming
 * [1.0.4](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.4) - not released yet
     * updated dependencies
 * [1.0.3](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.3) - released at 31.08.2014
