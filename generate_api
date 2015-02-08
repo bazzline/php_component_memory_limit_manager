@@ -4,6 +4,19 @@
  * @author stev leibelt <artodeto@bazzline.net>
  * @since 2015-02-07
  */
+
+if ($argc != 2) {
+    echo 'Usage: ' . basename(__FILE__) . ' <path to apigen>' . PHP_EOL;
+    exit(1);
+}
+
+$pathToApiGen = $argv[1];
+
+if (!is_readable($pathToApiGen)) {
+    echo 'path to apigen "' . $pathToApiGen . ' is not readable' . PHP_EOL;
+    exit(1);
+}
+
 $path = __DIR__;
 //delete
 $command = 'rm -fr ' . $path . '/document/*';
@@ -15,5 +28,5 @@ $options = array(
     '--destination ' . $path . '/document/',
     '--title "Memory Limit Manager by Bazzline"'
 );
-$command = 'php ' . $path . '/vendor/bin/apigen generate ' . implode(' ', $options);
+$command = 'php ' . $pathToApiGen . ' generate ' . implode(' ', $options);
 passthru($command);
