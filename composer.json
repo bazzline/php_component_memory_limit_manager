@@ -18,7 +18,7 @@
     },
     "require-dev": {
         "mockery/mockery": "0.9.3",
-        "phpmd/phpmd": "2.2.1",
+        "phpmd/phpmd": "2.2.2",
         "phpunit/phpunit": "4.5.0"
     },
     "autoload": {
