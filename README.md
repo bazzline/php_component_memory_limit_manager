@@ -1,6 +1,6 @@
 # Memory Limit Manager Component for PHP
 
-This component helps you to validate if your script reaches the allowed maximum memory limit.
+This free as in freedom component helps you to validate if your script reaches the allowed maximum memory limit.
 
 Furthermore, you can set your own memory limit (as long as it is below the limit in you php.ini).
 

@@ -1,6 +1,6 @@
 {
-    "description": "Supports you to validate if your script is reaching the allowed maximum memory usage",
-    "keywords": ["php", "component", "memory", "limit", "memory limit", "maximum memory", "memory limit manager", "memory manager", "memory limit manager"],
+    "description": "free as in freedom php component to validate if your script is reaching the allowed maximum memory usage",
+    "keywords": ["php", "component", "memory", "limit", "memory limit", "maximum memory", "memory limit manager", "memory manager", "memory limit manager", "lgpl", "free as in freedom"],
     "license": "LGPLv3",
     "name": "net_bazzline/php_component_memory_limit_manager",
     "type": "library",
