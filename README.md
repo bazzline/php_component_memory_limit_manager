@@ -69,6 +69,7 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 * upcomming
     * @todo
         * implement way of measure/calculate the amount of memory for next iteration
+    * added dedicated travis integration test for php 7.0
     * removed dead link
     * removed dependency to phpmd
     * updated dependencies
