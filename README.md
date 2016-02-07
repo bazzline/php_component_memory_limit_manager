@@ -9,7 +9,7 @@ The build status of the current master branch is tracked by Travis CI:
 [![Latest stable](https://img.shields.io/packagist/v/net_bazzline/php_component_memory_limit_manager.svg)](https://packagist.org/packages/net_bazzline/php_component_memory_limit_manager)
 
 The scrutinizer status are:
-[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
+[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
 
 The versioneye status is:
 [![dependencies](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123)
@@ -69,6 +69,7 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 * upcomming
     * @todo
         * implement way of measure/calculate the amount of memory for next iteration
+    * removed dead link
     * removed dependency to phpmd
     * updated dependencies
 * [1.0.9](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.9) - released at 11.12.2015
