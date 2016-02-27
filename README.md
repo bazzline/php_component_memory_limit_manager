@@ -69,7 +69,9 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 * upcomming
     * @todo
         * implement way of measure/calculate the amount of memory for next iteration
+* [1.1.0](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.1.0) - released at 27.02.2016
     * added dedicated travis integration test for php 7.0
+    * moved to psr-4 autoloading
     * removed dead link
     * removed dependency to phpmd
     * updated dependencies
