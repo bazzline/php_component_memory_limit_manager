@@ -9,7 +9,7 @@ The build status of the current master branch is tracked by Travis CI:
 [![Latest stable](https://img.shields.io/packagist/v/net_bazzline/php_component_memory_limit_manager.svg)](https://packagist.org/packages/net_bazzline/php_component_memory_limit_manager)
 
 The scrutinizer status are:
-[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
+[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_memory_limit_manager/)
 
 The versioneye status is:
 [![dependencies](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53e4ecade0a229bcec000123)
@@ -24,7 +24,7 @@ It is also available at [openhub.net](http://www.openhub.net/p/718010).
 * provides easy setting of memory limit
 * gives you the advantage to add a buffer before reaching the limit to easy up reacting when limit is reached
 * helps you to set the limit in bytes, kilo bytes, mega bytes or giga bytes (same for the buffer)
-* comes with [DependentInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerAwareInterface.php)
+* comes with [DependentInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/MemoryLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/MemoryLimitManagerAwareInterface.php)
 
 # Examples
 
@@ -72,6 +72,7 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 * [1.1.0](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.1.0) - released at 27.02.2016
     * added dedicated travis integration test for php 7.0
     * moved to psr-4 autoloading
+    * removed code coverage
     * removed dead link
     * removed dependency to phpmd
     * updated dependencies
@@ -96,7 +97,7 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
     * fixed small bugs
     * updated dependencies
 * [1.0.1](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.1) - released at 27.07.2014
-    * added missing [DependentInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/source/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerAwareInterface.php)
+    * added missing [DependentInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/1.0.1/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_memory_limit_manager/blob/master/1.0.1/Net/Bazzline/Component/MemoryLimitManager/MemoryLimitManagerAwareInterface.php)
 * [1.0.0](https://github.com/bazzline/php_component_memory_limit_manager/tree/1.0.0) - released at 27.07.2014
     * initial commit with examples, unit tests and api documentation
 
